@@ -58,8 +58,19 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
-  		}
+  			},
+  			linkedin: {
+  				blue: '#0077B5',
+  				'dark-blue': '#004471',
+  				'light-blue': '#E8F3FC',
+  				'dark-gray': '#283E4A',
+  				'light-gray': '#F3F6F8',
+  			},
+  		},
+  		fontSize: {
+  			'responsive-xl': ['1.25rem', { lineHeight: '1.75rem' }],
+  			'responsive-2xl': ['1.5rem', { lineHeight: '2rem' }],
+  		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
