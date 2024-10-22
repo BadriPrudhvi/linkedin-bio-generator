@@ -74,8 +74,8 @@ export function LinkedinBioGenerator() {
       <div className="flex-grow flex items-center justify-center p-4">
         <Card className="w-full max-w-2xl">
           <CardHeader>
-            <CardTitle className="text-2xl font-bold text-center text-gray-800">Create Your Professional Bio</CardTitle>
-            <CardDescription className="text-center text-gray-600">Generate the perfect summary in seconds</CardDescription>
+            <CardTitle className="text-2xl font-bold text-center text-gray-800">Create Your LinkedIn Bio</CardTitle>
+            <CardDescription className="text-center text-gray-600">Generate the perfect bio in seconds</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
             <div>
@@ -141,7 +141,7 @@ export function LinkedinBioGenerator() {
             
             {generatedBio && (
               <div className="mt-8">
-                <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">Your Professional Summary</h2>
+                <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">Your LinkedIn Bio</h2>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
